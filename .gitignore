@@ -1,6 +1,10 @@
 node_modules/
 
-# Root config folder - Ignore this directory at the root due to leading slash
-/artifacts
+# Ignore this directory at the root due to leading slash
+/artifacts/
 
+# User-specific files - Ignore file ".env"
+.env
 
+# Ignore all files starting with "z"
+z*
